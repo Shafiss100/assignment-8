@@ -1,0 +1,18 @@
+.carts{ 
+   
+    
+}
+.cart{
+  
+}
+.cart img{
+    width: 250px;
+}
+.cart button{
+    color: green;
+    background-color: rgb(234, 198, 151);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+

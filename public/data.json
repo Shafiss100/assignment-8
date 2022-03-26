@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/I/61YVqHdFRxL._AC_SY355_.jpg",
+      "name": "samsung",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "img": "https://www.getgadgetsbd.com/wp-content/uploads/2021/10/Red.jpg",
+      "name": "iphone",
+      "price": 490
+    },
+    {
+      "id": 3,
+      "img": "https://www.gizmochina.com/wp-content/uploads/2018/11/Lava-Z81-600x600.png",
+      "name": "lava",
+      "price": 333
+    },
+    {
+      "id": 4,
+      "img": "https://www.mobiledokan.co/wp-content/uploads/2021/10/Sony-Xperia-Pro-I.jpg",
+      "name": "sony",
+      "price": 444
+    },
+    {
+      "id": 5,
+      "img": "https://www.xda-developers.com/files/2021/04/Xiaomi-Mi-11X.png",
+      "name": "xami",
+      "price": 322
+    },
+    {
+      "id": 6,
+      "img": "https://www.mobiledokan.co/wp-content/uploads/2019/09/Walton-Primo-R6-Crimson-Black.jpg",
+      "name": "walton",
+      "price": 465
+    },
+    {
+      "id": 7,
+      "img": "https://www.powerplanetonline.com/cdnassets/funda_ultra_protection_xiaomi_pocophone_x3_nfc_01_negro_l.jpg",
+      "name": "poco",
+      "price": 315
+    },
+    {
+      "id": 8,
+      "img": "https://5.imimg.com/data5/SELLER/Default/2021/2/RM/OR/DZ/37857901/samasung-phones--500x500.JPG",
+      "name": "vivo",
+      "price": 673
+    },
+    {
+      "id": 9,
+      "img": "https://cdn1.smartprix.com/rx-inWC1POXs-w500-h500/oppo-k5-8gb-ram-128g.jpg",
+      "name": "oppo",
+      "price": 365
+    }
+  ]
