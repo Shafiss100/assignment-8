@@ -1,12 +1,14 @@
 import React from 'react';
 import './Phones.css'
 
-const Phones = (props) => {
-    const card = () =>{
-        console.log("clicked")
-      }
-
-    const {id , img , name , price} = props.data;
+const Phones = (data ) => {
+    
+    
+    const { id, img , name , price} = data.data;
+    const addToCard = (id) => {
+        console.log(id)
+      };
+    
     return (
         <div className='carts'>
             <div className='cart'>
@@ -14,7 +16,7 @@ const Phones = (props) => {
                 <div>
                 <h2>Name = {name}</h2>
                 <h1>Price = {price}</h1>
-                <button onClick={card}>Add to card</button>
+                <button onClick={() => addToCard(id)}>Add to card</button>
                 </div>
             </div>
         </div>

@@ -5,8 +5,10 @@ import { useEffect, useState } from 'react';
 import Phones from './Componet/Phones/Phones';
 
 function App() {
-  
+   
    const [phones , setPhone] = useState([]);
+   
+   
    useEffect(() => {
      fetch('data.json').then(res => res.json()).then(data => {
        setPhone(data)
@@ -18,7 +20,8 @@ function App() {
       <div className='container'>
       <div className="carts">
       {
-        phones.map(phone => <Phones key = {phone.id} data = {phone} ></Phones>)
+        phones.map(phone => <Phones key = {phone.id} data = {phone}   />
+          )
       }
       </div>
       <div className='cart'>
