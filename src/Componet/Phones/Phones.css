@@ -15,4 +15,15 @@
     border: none;
     border-radius: 10px;
 }
+ 
+.button{
+    display: flex;
+    align-items: center;
 
+}
+.shop-icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    
+}

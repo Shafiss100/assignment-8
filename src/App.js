@@ -5,6 +5,9 @@ import { useEffect, useState } from 'react';
 import Phones from './Componet/Phones/Phones';
 
 function App() {
+  const addToCard = (id) => {
+    console.log(id)
+  };
    
    const [phones , setPhone] = useState([]);
    
@@ -20,7 +23,10 @@ function App() {
       <div className='container'>
       <div className="carts">
       {
-        phones.map(phone => <Phones key = {phone.id} data = {phone}   />
+        phones.map(phone => <Phones 
+          key = {phone.id} 
+          data = {phone}
+          addToCard = {addToCard}   />
           )
       }
       </div>

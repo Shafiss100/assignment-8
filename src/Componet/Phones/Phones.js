@@ -1,13 +1,12 @@
 import React from 'react';
-import './Phones.css'
+import './Phones.css';
+import {  ShoppingCartIcon } from '@heroicons/react/solid';
 
 const Phones = (data ) => {
     
-    
+    const {addToCard} = data;
     const { id, img , name , price} = data.data;
-    const addToCard = (id) => {
-        console.log(id)
-      };
+    
     
     return (
         <div className='carts'>
@@ -16,7 +15,7 @@ const Phones = (data ) => {
                 <div>
                 <h2>Name = {name}</h2>
                 <h1>Price = {price}</h1>
-                <button onClick={() => addToCard(id)}>Add to card</button>
+                <button className='button' onClick={() => addToCard(name)}>Add to card <ShoppingCartIcon className="shop-icon"/></button>
                 </div>
             </div>
         </div>
@@ -24,3 +23,4 @@ const Phones = (data ) => {
 };
 
 export default Phones;
+
